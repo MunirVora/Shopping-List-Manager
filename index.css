@@ -1,0 +1,74 @@
+body {
+    background-image: url('images/linedpaper.png');
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: courier, monospace;
+}
+
+form{
+    color: #3498db;
+    font-size: 22px;
+}  
+
+input[type="text"]{
+    background-color : #f8f8f8;
+    border-radius: 5px;
+    border: 2px solid #3498db;
+    font-size: 18px;
+    padding: 5px;
+    color: #3498db;
+}
+
+input[type="button"]{
+    background-color : #f8f8f8;
+    color: #3498db;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 2px solid #3498db;
+}
+
+input[type="button"]:hover{
+    color: #f8f8f8;
+    background-color: #3498db;
+    border-color: #f8f8f8;
+    cursor: pointer;
+}
+
+h1 {
+    color: #4183D7;
+    font-size: 50px;
+}
+
+h2 {
+    color: #4183D7;
+    font-size: 42px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+ul{
+    color: #555;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #dedede;
+}
+
+ul li {
+    list-style: none;
+    background-color : #f8f8f8;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #3498db;
+}
+
+ul li button {
+    float: right;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
